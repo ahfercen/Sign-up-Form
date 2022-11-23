@@ -20,7 +20,6 @@ body{
 }
 .Logo{
     flex: 3;
-    border: 2px solid red;
     background: url("./clouds.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -43,22 +42,28 @@ body{
     
 }
 .LogoBar img{
-    border: 2px solid green;
     max-width: 15%;
     height: auto;
 }
 .form{
     flex: 5;
-    border: 2px solid blue;
     display: flex;
     flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .disclaimer{
+    display: flex;
+    border: 2px solid red;
     flex: 1;
 }
 .formContainer{
+    display: flex;
+    border: 2px solid blue;
     flex: 2;
 }
 .blank{
+    display: flex;
     flex: 1;
+    border: 2px solid green;
+
 }
