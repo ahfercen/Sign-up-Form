@@ -1,3 +1,8 @@
+@font-face {
+    font-family: NordicBold;
+    font-weight: bold;
+    src: url("Norse-Bold.otf") format("opentype");
+}
 html{
 
 }
@@ -13,10 +18,14 @@ body{
     flex-direction: column;
     min-height: 100vh;
     justify-content: center;
+    align-items: center;
 }
 .Logo{
     flex: 2;
     border: 2px solid red;
+    font: NordicBold, serif;
+    font-weight: bold;
+    font-size: 48px;
 }
 .Form{
     flex: 3;
