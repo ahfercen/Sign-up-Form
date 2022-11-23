@@ -47,9 +47,18 @@ body{
     max-width: 15%;
     height: auto;
 }
-.Form{
+.form{
     flex: 5;
     border: 2px solid blue;
     display: flex;
     flex-direction: column;
+}
+.disclaimer{
+    flex: 1;
+}
+.formContainer{
+    flex: 2;
+}
+.blank{
+    flex: 1;
 }
