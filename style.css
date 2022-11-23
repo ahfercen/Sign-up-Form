@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'NordicBold';
     font-weight: bold;
-    src: url('/Norse-Bold.otf') format("opentype");
+    src: url('assets/Norse-Bold.otf') format("opentype");
 }
 html{
 
@@ -20,7 +20,7 @@ body{
 }
 .Logo{
     flex: 3;
-    background: url("./clouds.jpg");
+    background: url("assets/clouds.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
