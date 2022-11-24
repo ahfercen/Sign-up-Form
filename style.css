@@ -107,6 +107,14 @@ body{
     width: 80%;
     height: 100%;
     font-size: 22px;
+    border: none;
+    border-bottom: 2px solid rgba(115, 112, 112, 0.8);
+    transition: box-shadow 0.4s ease-in-out;
+}
+.QA input:focus{
+    outline: none;
+    border: none;
+    box-shadow: 0px 3px 5px rgba(115, 112, 112, 0.8);
 }
 
 .btnRegion{
@@ -132,7 +140,8 @@ body{
     margin-top: 2vh;
 }
 .loginRegion a{
-    color: rgb(33, 78, 115);
+    color: rgb(4, 43, 74);
+    text-decoration: none;
 }
 
 form{
