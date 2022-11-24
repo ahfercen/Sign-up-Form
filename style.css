@@ -104,7 +104,7 @@ body{
     font-weight: 500;
 }
 .QA input{
-    width: 70%;
+    width: 80%;
     height: 100%;
     font-size: 22px;
 }
@@ -118,8 +118,9 @@ body{
 }
 .btnRegion button{
     margin-left: 4vw;
-    font-size: 36px;
-    width: 30%;
+    font-size: 28px;
+    width: 25%;
+    margin-top: 2vh;
 }
 
 form{
